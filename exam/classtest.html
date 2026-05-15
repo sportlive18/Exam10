@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>MPH Epidemiology & Biostatistics – Solved Papers (Dec 2019 & Class Test)</title>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #f5f9fe;
+            font-family: 'Segoe UI', 'Georgia', 'Times New Roman', serif;
+            padding: 2rem 1rem;
+            line-height: 1.5;
+            color: #1a2c3e;
+        }
+        .container {
+            max-width: 1300px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 32px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+            padding: 2rem 2rem 2.5rem;
+        }
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+            background: linear-gradient(135deg, #0b3b5f, #1c6e8f);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 0.25rem;
+        }
+        .subhead {
+            text-align: center;
+            font-size: 1rem;
+            color: #2c5282;
+            font-weight: 500;
+            border-bottom: 2px solid #cbd5e1;
+            padding-bottom: 0.75rem;
+            margin-bottom: 1.8rem;
+        }
+        .paper-title {
+            background: #e6f2f9;
+            padding: 0.6rem 1rem;
+            border-radius: 40px;
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin: 1.5rem 0 0.8rem;
+            color: #0f3b5f;
+            text-align: center;
+        }
+        h2 {
+            font-size: 1.6rem;
+            margin: 1.3rem 0 0.6rem;
+            color: #0f3b5f;
+            border-left: 6px solid #0f3b5f;
+            padding-left: 1rem;
+            background: #eff6fc;
+            border-radius: 0 12px 12px 0;
+        }
+        h3 {
+            font-size: 1.3rem;
+            margin: 1rem 0 0.5rem;
+            color: #1e4a6e;
+            font-weight: 600;
+        }
+        h4 {
+            font-size: 1.1rem;
+            margin: 0.7rem 0 0.3rem;
+            color: #2d4a6e;
+        }
+        .table-wrapper {
+            overflow-x: auto;
+            margin: 1rem 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            margin: 0.7rem 0;
+            font-size: 0.95rem;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        th, td {
+            border: 1px solid #cbd5e1;
+            padding: 10px 12px;
+            text-align: center;
+            vertical-align: top;
+        }
+        th {
+            background: #e6f0f7;
+            font-weight: 700;
+            color: #0b3b5f;
+        }
+        .insight {
+            background: #eef4ff;
+            border-left: 5px solid #2563eb;
+            padding: 0.8rem 1.2rem;
+            margin: 1rem 0;
+            border-radius: 20px;
+        }
+        .formula-block {
+            background: #f8fafc;
+            padding: 0.6rem 1rem;
+            border-radius: 14px;
+            font-family: monospace;
+            margin: 0.6rem 0;
+            overflow-x: auto;
+        }
+        .two-col {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin: 1rem 0;
+        }
+        .col {
+            flex: 1;
+            background: #fafeff;
+            border: 1px solid #deeaf0;
+            border-radius: 20px;
+            padding: 1rem;
+        }
+        footer {
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #4b6a8b;
+            border-top: 1px solid #cbd5e1;
+            padding-top: 1.2rem;
+        }
+        @media (max-width: 700px) {
+            .container {
+                padding: 1.2rem;
+            }
+            th, td {
+                padding: 6px 8px;
+                font-size: 0.85rem;
+            }
+            h2 {
+                font-size: 1.4rem;
+            }
+        }
+        .badge {
+            background: #d4e6f1;
+            border-radius: 40px;
+            padding: 0.2rem 0.8rem;
+            font-size: 0.7rem;
+            font-weight: 700;
+            display: inline-block;
+        }
+        .math {
+            font-size: 1.05rem;
+        }
+        hr {
+            margin: 1.2rem 0;
+            border: 0;
+            height: 2px;
+            background: linear-gradient(to right, #cbd5e1, transparent);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>MPH Epidemiology & Biostatistics</h1>
+    <div class="subhead">Solved Previous Year Papers | Dec 2019 + Class Test 2 (Institute of Public Health, Kalyani)</div>
+
+    <!-- ============================================= -->
+    <!-- PAPER 1: Dec 2019 -->
+    <!-- ============================================= -->
+    <div class="paper-title">📄 PAPER 1 (Dec 2019) – Institute of Public Health, Kalyani</div>
+
+    <!-- Q1(a) Case-control study design -->
+    <h2>Q1(a) Design a case-control study: CHD and smoking (with diagram & 2×2 table)</h2>
+    <p><strong>Case-Control Study:</strong> Observational study starting with cases (disease present) and controls (disease absent), then looking back for past exposure.</p>
+    <p><strong>Steps:</strong> 1) Select CHD cases from hospitals. 2) Select controls (no CHD) from same community. 3) Assess smoking history. 4) Compare exposure frequency.</p>
+    <p><strong>Diagram:</strong> CHD present (Cases) ← Smoking history ; CHD absent (Controls) ← Smoking history.</p>
+    <div class="table-wrapper">
+        <table>
+            <thead><tr><th></th><th>CHD Cases</th><th>Controls</th><th>Total</th></tr></thead>
+            <tbody>
+                <tr><td>Smoker</td><td>a</td><td>b</td><td>a+b</td></tr>
+                <tr><td>Non-smoker</td><td>c</td><td>d</td><td>c+d</td></tr>
+                <tr><td>Total</td><td>a+c</td><td>b+d</td><td>N</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <p><strong>Odds Ratio (OR) = \( \frac{a \times d}{b \times c} \)</strong> → OR>1 indicates smoking increases CHD risk.</p>
+
+    <!-- Q1(b) AR and PAR -->
+    <h2>Q1(b) Define Attributable Risk (AR) and Population Attributable Risk (PAR)</h2>
+    <p><strong>Attributable Risk (AR) = \( I_e - I_o \)</strong> : excess disease among exposed due to exposure.<br>
+    <strong>Population Attributable Risk (PAR) = \( I_t - I_o \)</strong> : excess disease in total population due to exposure.</p>
+
+    <!-- Q1(c) Cohort study numerical -->
+    <h2>Q1(c) Cohort: smokers incidence 9/1000, non-smokers 1/1000, smokers=45%</h2>
+    <p>(i) AR among smokers = \( \frac{9}{1000} - \frac{1}{1000} = \frac{8}{1000} \) → <strong>8 per 1000</strong>.<br>
+    (ii) \( I_t = 0.45\times\frac{9}{1000} + 0.55\times\frac{1}{1000} = \frac{4.6}{1000} \) → PAR = \( \frac{4.6}{1000} - \frac{1}{1000} = \frac{3.6}{1000} \) → <strong>3.6 per 1000</strong>.</p>
+
+    <!-- Q2(a) Confounding -->
+    <h2>Q2(a) Define Confounding with example</h2>
+    <p><strong>Confounder:</strong> third factor associated with both exposure and outcome, not on causal pathway.<br>
+    <strong>Example:</strong> Age confounds smoking-lung cancer association (older people smoke more & have higher cancer risk).</p>
+
+    <!-- Q2(b) Control of confounding -->
+    <h2>Q2(b) How confounding is controlled?</h2>
+    <p><strong>Design stage:</strong> Randomization, Restriction, Matching.<br>
+    <strong>Analysis stage:</strong> Stratification, Multivariate regression.</p>
+
+    <!-- Q2(c) Stratified analysis -->
+    <h2>Q2(c) Stratified analysis & comment</h2>
+    <p>Crude OR = \( \frac{60\times164}{36\times140} = 1.95 \).<br>
+    Age &lt;40: OR = 1.0 ; Age ≥40: OR = 1.0 → crude OR differs → <strong>Age is a confounder</strong>.</p>
+
+    <!-- Q3(a) Prospective vs retrospective cohort -->
+    <h2>Q3(a) Difference: Prospective vs Retrospective Cohort</h2>
+    <div class="table-wrapper">
+        <table>
+            <thead><tr><th>Feature</th><th>Prospective</th><th>Retrospective</th></tr></thead>
+            <tbody>
+                <tr><td>Direction</td><td>Forward</td><td>Backward (past records)</td></tr>
+                <tr><td>Cost</td><td>High</td><td>Low</td></tr>
+                <tr><td>Bias</td><td>Less</td><td>More recall/record bias</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Q3(b) CHD cohort -->
+    <h2>Q3(b) Smokers 3000 (CHD=90), non-smokers 5000 (CHD=100)</h2>
+    <p>Incidence smokers = 90/3000 = 0.03 ; non-smokers = 100/5000 = 0.02.<br>
+    <strong>RR = 0.03/0.02 = 1.5</strong> → smokers have 1.5× higher CHD risk.</p>
+
+    <!-- Q3(c) Type I & II errors -->
+    <h2>Q3(c) Type I and Type II errors</h2>
+    <p><strong>Type I error (α):</strong> Reject true H₀ (false positive).<br>
+    <strong>Type II error (β):</strong> Fail to reject false H₀ (false negative).</p>
+
+    <!-- Q4(a) Causation flow diagram -->
+    <h2>Q4(a) Flow diagram for causation decision</h2>
+    <p>1) Is association real? (chance, bias, confounding?) → 2) If real, is it causal? (temporality, strength, consistency) → 3) If causal, implement prevention.</p>
+
+    <!-- Q4(b) Interaction models -->
+    <h2>Q4(b) Interaction (additive & multiplicative models)</h2>
+    <p>Baseline R₀₀=3, R₁₀=7, R₀₁=8.<br>
+    <strong>Additive expected</strong> = \( 3 + (7-3)+(8-3) = 12 \).<br>
+    <strong>Multiplicative expected</strong> = \( 3 \times (7/3) \times (8/3) \approx 18.67 \).<br>
+    If observed = 12 → no additive interaction; if observed = 19 → no multiplicative interaction.</p>
+
+    <!-- Q4(c) Hill's criteria -->
+    <h2>Q4(c) Hill’s criteria for causation</h2>
+    <p>Strength, Consistency, Specificity, Temporality (most important), Biological gradient, Plausibility, Coherence, Experiment, Analogy.</p>
+
+    <hr>
+
+    <!-- ============================================= -->
+    <!-- PAPER 2: Class Test 2 -->
+    <!-- ============================================= -->
+    <div class="paper-title">📄 PAPER 2 (Class Test 2) – Screening, Kappa, Survival</div>
+
+    <!-- Q1 Sensitivity + PPV new prevalence -->
+    <h2>Q1 Sensitivity, Specificity & PPV (new prevalence 2%)</h2>
+    <p>From 2×2: TP=20, FN=5, TN=380, FP=95.<br>
+    <strong>Sensitivity = 20/25 = 80%</strong> ; <strong>Specificity = 380/475 = 80%</strong>.<br>
+    New population 10,000, prevalence 2% → Disease=200, Non-disease=9800.<br>
+    TP=160, FN=40 ; TN=7840, FP=1960 → PPV = \( \frac{160}{160+1960} = 7.55\% \).</p>
+
+    <!-- Q2 Net specificity (two-step testing) -->
+    <h2>Q2 Net Specificity – Test A then Test B</h2>
+    <p>Test A: Se=80%, Sp=60% ; Test B: Se=90%, Sp=90% ; Population 4000, prev 5% (D=200, ND=3800).<br>
+    After A: TP=160, FN=40 ; TN=2280, FP=1520.<br>
+    Test B on positives: among 160 TP → new TP=144, among 1520 FP → new TN=1368, FP=152.<br>
+    Final TN = 2280+1368 = 3648 ; Final FP=152 → <strong>Net Specificity = \( \frac{3648}{3648+152}=96\% \).</strong></p>
+
+    <!-- Q3 Willis Rogers & 5-year survival -->
+    <h2>Q3 Willis Rogers phenomenon + Five‑year survival</h2>
+    <p><strong>Willis Rogers (stage migration bias):</strong> Improved diagnostics shift patients to more severe stage → survival appears improved in each stage without true benefit.<br>
+    <strong>5‑year survival:</strong> Only 2010 cohort has complete 5-year follow-up (alive in 2015 = 32/160) → <strong>20%</strong>.</p>
+
+    <!-- Q4 Kappa statistics -->
+    <h2>Q4 Reliability & Kappa Statistics</h2>
+    <div class="table-wrapper">
+        <table>
+            <thead><tr><th></th><th>A: Grade II</th><th>A: Grade III</th><th>Total</th></tr></thead>
+            <tbody>
+                <tr><td>B: Grade II</td><td>82</td><td>6</td><td>88</td></tr>
+                <tr><td>B: Grade III</td><td>8</td><td>54</td><td>62</td></tr>
+                <tr><td>Total</td><td>90</td><td>60</td><td>150</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <p>\( P_o = \frac{82+54}{150} = 0.9067 \).<br>
+    \( P_e = \left(\frac{90}{150}\times\frac{88}{150}\right) + \left(\frac{60}{150}\times\frac{62}{150}\right) = 0.352 + 0.1653 = 0.5173 \).<br>
+    <strong>\( \kappa = \frac{0.9067-0.5173}{1-0.5173} = 0.806 \approx 0.81 \)</strong> → <strong>almost perfect agreement</strong>.</p>
+
+    <!-- ============================================= -->
+    <!-- SUMMARY FORMULAS -->
+    <!-- ============================================= -->
+    <div class="insight">
+        <strong>📌 EXAM CRITICAL FORMULAS – MUST REMEMBER:</strong><br>
+        \( OR = \frac{ad}{bc} \) &nbsp;&nbsp; \( RR = \frac{I_e}{I_o} \) &nbsp;&nbsp; \( AR = I_e - I_o \) &nbsp;&nbsp; \( PAR = I_t - I_o \)<br>
+        Sensitivity = \( \frac{TP}{TP+FN} \) &nbsp;&nbsp; Specificity = \( \frac{TN}{TN+FP} \)<br>
+        PPV = \( \frac{TP}{TP+FP} \) &nbsp;&nbsp; NPV = \( \frac{TN}{TN+FN} \) &nbsp;&nbsp; \( \kappa = \frac{P_o-P_e}{1-P_e} \)
+    </div>
+
+    <footer>
+        Institute of Public Health, Kalyani – Epidemiology Class Test (Dec 2019 & Class Test 2) | Fully solved with interpretations.
+    </footer>
+</div>
+</body>
+</html>
